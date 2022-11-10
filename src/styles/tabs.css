@@ -1,0 +1,45 @@
+.tabs-header {
+  max-width: 609px;
+}
+.tabs-header__tab {
+  display: inline-block;
+  width: 32.8%;
+  text-align: center;
+  padding: 8px 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  background-color: var(--main-white);
+}
+.tabs-content {
+  display: inline-block;
+  max-width: 570px;
+  vertical-align: top;
+  margin: 0 0 auto 8.5%;
+}
+.tabs-content__title {
+  padding: 39.5px 0;
+  font-family: "Open Sans";
+  font-size: 30px;
+}
+.tabs-content__text {
+  margin-top: 27px;
+  line-height: 21px;
+}
+.tabs-content__button {
+  margin: 27px auto auto 0;
+  width: 270px;
+  padding: 18.5px 0;
+  background-color: var(--main-orange);
+  color: var(--main-white);
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+.tabs__image {
+  display: inline-block;
+  margin-left: 24px;
+}
