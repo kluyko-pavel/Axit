@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 h2 {
   font-family: "Raleway";
   font-size: 36px;

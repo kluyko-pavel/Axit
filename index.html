@@ -22,9 +22,9 @@
               </a>
             </div>
             <nav class="main-navigation">
-              <a href="#" class="main-navigation__link">Features</a>
-              <a href="#" class="main-navigation__link">About</a>
-              <a href="#" class="main-navigation__link">Pricing</a>
+              <a href="#tabs" class="main-navigation__link">Features</a>
+              <a href="#awesome" class="main-navigation__link">About</a>
+              <a href="#pricing" class="main-navigation__link">Pricing</a>
               <a href="#" class="main-navigation__link">Reviews</a>
               <a href="#" class="main-navigation__link">Contact</a>
             </nav>
@@ -32,40 +32,44 @@
         </div>
       </header>
       <main class="content">
-        <section class="tabs">
+        <section id="tabs" class="tabs">
           <div class="container">
             <header class="tabs-header">
-              <button class="tabs-header__tab">TAB 1</button>
+              <button class="tabs-header__tab tabs-header__tab--active">
+                TAB 1
+              </button>
               <button class="tabs-header__tab">TAB 2</button>
               <button class="tabs-header__tab">TAB 3</button>
             </header>
-            <section class="tabs-content">
-              <h3 class="tabs-content__title">
-                Tabs with soft transitioning effect.
-              </h3>
-              <p class="tabs-content__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod <br />
-                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                viverra <br />
-                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
-                penatibus et magnis dis parturient montes. <br />
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod <br />
-                bibendum laoreet.
-              </p>
-              <button class="tabs-content__button">Download</button>
-            </section>
-            <img
-              class="tabs__image"
-              src="./src/assets/images/statue_liberty.png"
-              alt="statue_liberty"
-            />
+            <div class="tabs-content-container">
+              <div class="tabs-content">
+                <h3 class="tabs-content__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <p class="tabs-content__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod <br />
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
+                  et viverra <br />
+                  justo commodo. Proin sodales pulvinar tempor. Cum sociis
+                  natoque penatibus et magnis dis parturient montes. <br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod <br />
+                  bibendum laoreet.
+                </p>
+                <button class="tabs-content__button">Download</button>
+              </div>
+              <img
+                class="tabs__image"
+                src="./src/assets/images/statue_liberty.png"
+                alt="statue_liberty"
+              />
+            </div>
           </div>
         </section>
 
-        <section class="awesome">
+        <section id="awesome" class="awesome">
           <div class="container">
             <header class="section-header">
               <h2 class="section-header__title">WHY THIS IS AWESOME</h2>
@@ -124,7 +128,7 @@
           </div>
         </section>
 
-        <section class="pricing">
+        <section id="pricing" class="pricing">
           <div class="container">
             <header class="section-header">
               <h2 class="section-header__title">PRICING OPTIONS</h2>

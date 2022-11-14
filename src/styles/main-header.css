@@ -1,5 +1,8 @@
 .main-header {
   background-color: #000000;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
 }
 .main-header__container {
   max-width: 1280px;
