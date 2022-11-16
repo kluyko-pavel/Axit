@@ -9,7 +9,6 @@
 .reviews-content__column {
   max-width: 31.6%;
   min-height: 336px;
-  position: relative;
 }
 .reviews-content__column-text {
   min-height: 180px;

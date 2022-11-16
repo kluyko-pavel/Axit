@@ -1,0 +1,49 @@
+.preview {
+  min-height: 951px;
+  background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
+    url(../assets/images/preview-background.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-attachment: fixed;
+}
+.preview-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 208px;
+}
+.preview__content {
+  flex-basis: 670px;
+  color: var(--main-white);
+}
+.preview__content-logo {
+}
+.preview__content-title {
+  margin: 0;
+  padding: 51px 0 55px 0;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+}
+.preview__content-line {
+  background-color: var(--main-white);
+  margin: 0;
+}
+.preview__content-text {
+  padding: 42px 0;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  max-width: 270px;
+}
+.preview__button-download--transparent {
+  width: 40.3%;
+}
+.preview__registrationform {
+  flex-basis: 470px;
+  height: 450px;
+  background-color: black;
+}

@@ -31,3 +31,16 @@ p {
 button {
   cursor: pointer;
 }
+.button-download--transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid var(--main-white);
+  color: var(--main-white);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  min-height: 58px;
+}
