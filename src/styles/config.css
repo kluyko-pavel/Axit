@@ -44,3 +44,12 @@ button {
   line-height: 25px;
   min-height: 58px;
 }
+.adress__links {
+  width: 47.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.adress__links-link:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}

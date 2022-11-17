@@ -7,11 +7,6 @@
   flex-direction: column;
   align-items: center;
 }
-.main-footer__links {
-  width: 47.5%;
-  display: flex;
-  justify-content: space-between;
-}
 .main-footer__copiraiting {
   padding-top: 32px;
   text-align: center;

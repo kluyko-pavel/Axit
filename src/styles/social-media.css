@@ -1,0 +1,20 @@
+.social-media {
+  background-color: #f8efef;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media__text {
+  flex-basis: 470px;
+}
+.social-media__text-title {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.social-media__text-subtitle {
+  padding: 18px 0;
+}
