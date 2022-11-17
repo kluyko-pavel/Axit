@@ -7,7 +7,7 @@
   background-position-y: bottom;
   background-attachment: fixed;
 }
-.preview-container {
+.preview-flex-container {
   display: flex;
   justify-content: space-between;
   padding-top: 208px;
