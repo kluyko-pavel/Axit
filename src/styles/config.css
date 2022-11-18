@@ -28,6 +28,17 @@ p {
   font-style: normal;
   font-size: 18px;
 }
+input {
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+input::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
 button {
   cursor: pointer;
 }

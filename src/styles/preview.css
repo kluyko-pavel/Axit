@@ -10,6 +10,7 @@
 .preview-flex-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   padding-top: 208px;
 }
 .preview__content {
@@ -42,6 +43,52 @@
 }
 .preview__registrationform {
   flex-basis: 470px;
-  height: 450px;
-  background-color: black;
+  background-color: var(--main-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.preview__registrationform-title {
+  flex-basis: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.preview__registrationform-title-highlighted {
+  color: var(--main-orange);
+}
+.preview__registrationform-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preview__registrationform-form-data {
+  margin-top: 45px;
+  min-height: 180px;
+  width: 78.7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.preview__registrationform-form-data-reginput {
+  outline: none;
+  flex-basis: 38px;
+}
+.preview__registrationform-form-button {
+  margin-top: 75px;
+  margin-bottom: 0;
+  width: 100%;
+  border: none;
+  border-radius: 0px 0px 10px 10px;
+  flex-basis: 60px;
+  background-color: var(--main-orange);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--main-white);
+  cursor: pointer;
 }
