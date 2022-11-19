@@ -10,6 +10,9 @@
   max-width: 31.6%;
   min-height: 336px;
 }
+.reviews-content__column-block-text {
+  position: relative;
+}
 .reviews-content__column-text {
   min-height: 180px;
   padding: 0 20px;

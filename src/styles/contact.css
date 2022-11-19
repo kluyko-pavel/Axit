@@ -1,0 +1,48 @@
+.contact {
+  padding: 50px 0;
+}
+.contact__form-data {
+  padding: 89px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__form-data-contactinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 571px;
+  min-height: 214px;
+}
+.contact__form-data-contactinfo-input {
+  min-height: 38px;
+}
+.contact__form-data-message {
+  flex-basis: 569px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  resize: none;
+}
+.contact__form-data-message::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+.contact__form-button {
+  display: flex;
+  justify-content: center;
+}
+.contact__form-button-submit {
+  flex-basis: 370px;
+  min-height: 58px;
+  border: none;
+  background-color: var(--main-orange);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--main-white);
+  cursor: pointer;
+}
