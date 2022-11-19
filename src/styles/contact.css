@@ -1,8 +1,8 @@
 .contact {
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 .contact__form-data {
-  padding: 89px 0 50px 0;
+  padding: 5.562rem 0 3.125rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -10,14 +10,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 571px;
-  min-height: 214px;
+  flex-basis: 35.687rem;
+  min-height: 13.375rem;
 }
 .contact__form-data-contactinfo-input {
-  min-height: 38px;
+  min-height: 2.375rem;
 }
 .contact__form-data-message {
-  flex-basis: 569px;
+  flex-basis: 35.562rem;
   outline: none;
   border: none;
   border-bottom: 1px solid #bdbdbd;
@@ -26,8 +26,8 @@
 .contact__form-data-message::placeholder {
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.357em;
   color: #bdbdbd;
 }
 .contact__form-button {
@@ -35,14 +35,14 @@
   justify-content: center;
 }
 .contact__form-button-submit {
-  flex-basis: 370px;
-  min-height: 58px;
+  flex-basis: 20.55em;
+  min-height: 3.22em;
   border: none;
   background-color: var(--main-orange);
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 1.125rem;
+  line-height: 1.39em;
   color: var(--main-white);
   cursor: pointer;
 }

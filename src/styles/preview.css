@@ -1,5 +1,5 @@
 .preview {
-  min-height: 951px;
+  min-height: 59.44rem;
   background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
     url(../assets/images/preview-background.jpg);
   background-size: cover;
@@ -11,38 +11,38 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 208px;
+  padding-top: 13rem;
+  flex-wrap: wrap;
 }
 .preview__content {
-  flex-basis: 670px;
+  flex-basis: 41.875rem;
   color: var(--main-white);
 }
 .preview__content-title {
   margin: 0;
-  padding: 51px 0 55px 0;
+  padding: 1.062em 0 1.146em 0;
   font-family: "Raleway";
   font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 1.17em;
 }
 .preview__content-line {
   background-color: var(--main-white);
   margin: 0;
 }
 .preview__content-text {
-  padding: 42px 0;
+  padding: 2.33em 0;
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-
-  max-width: 270px;
+  font-size: 1.125rem;
+  line-height: 1.17em;
+  max-width: 15em;
 }
 .preview__button-download--transparent {
   width: 40.3%;
 }
 .preview__registrationform {
-  flex-basis: 470px;
+  flex-basis: 29.375rem;
   background-color: var(--main-white);
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@
   border-radius: 10px;
 }
 .preview__registrationform-title {
-  flex-basis: 90px;
+  flex-basis: 5.625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,8 +66,8 @@
   align-items: center;
 }
 .preview__registrationform-form-data {
-  margin-top: 45px;
-  min-height: 180px;
+  margin-top: 2.81rem;
+  min-height: 11.25rem;
   width: 78.7%;
   display: flex;
   flex-direction: column;
@@ -77,17 +77,17 @@
   flex-basis: 38px;
 }
 .preview__registrationform-form-button {
-  margin-top: 75px;
+  margin-top: 5em;
   margin-bottom: 0;
   width: 100%;
   border: none;
   border-radius: 0px 0px 10px 10px;
-  flex-basis: 60px;
+  flex-basis: 4em;
   background-color: var(--main-orange);
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.937rem;
+  line-height: 1.33em;
   color: var(--main-white);
   cursor: pointer;
 }

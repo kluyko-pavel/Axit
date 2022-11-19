@@ -1,6 +1,6 @@
 .main-footer {
   background-color: var(--main-black);
-  padding: 40px 0 27px 0;
+  padding: 2.5rem 0 1.69rem 0;
 }
 .main-footer-flex-container {
   display: flex;
@@ -8,5 +8,5 @@
   align-items: center;
 }
 .main-footer__copiraiting {
-  padding-top: 32px;
+  padding-top: 2rem;
 }

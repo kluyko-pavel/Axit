@@ -3,30 +3,30 @@ html {
 }
 h2 {
   font-family: "Raleway";
-  font-size: 36px;
+  font-size: 2rem;
 }
 h3 {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2rem;
 }
 h4 {
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 h5 {
   font-family: "Raleway";
   margin: 0;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.31rem;
   color: #86878b;
 }
 p {
   font-family: "Raleway";
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 input {
   border: none;
@@ -36,8 +36,8 @@ input {
 input::placeholder {
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 0.875rem;
+  line-height: 1.187rem;
   color: #bdbdbd;
 }
 button {
@@ -52,9 +52,9 @@ button {
   color: var(--main-white);
   font-family: "Open Sans";
   font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  min-height: 58px;
+  font-size: 1.125rem;
+  line-height: 1.562rem;
+  min-height: 3.625rem;
 }
 .adress__links {
   width: 47.5%;

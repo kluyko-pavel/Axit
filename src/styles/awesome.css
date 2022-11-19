@@ -1,38 +1,38 @@
 .awesome {
-  padding: 50px 0 58px 0;
+  padding: 3.125rem 0 3.625rem 0;
 }
 .awesome__row {
-  margin: 71px auto auto auto;
+  margin: 4.437rem auto auto auto;
 }
 .item-awesome {
   display: inline-block;
 }
 .item-awesome:nth-child(2) {
-  margin: 0px 26px;
+  margin: 0px 1.625rem;
 }
 .item-awesome__icon {
   border-radius: 50%;
-  width: 92px;
-  height: 92px;
+  width: 5.75rem;
+  height: 5.75rem;
   border: 1px solid var(--main-orange);
-  margin: 39px auto auto auto;
-  padding: 13.35px;
+  margin: 2.437rem auto auto auto;
+  padding: 0.834rem;
 }
 
 .item-awesome__icon-img {
-  width: 65.29px;
-  height: 65.29px;
+  width: 4.08rem;
+  height: 4.08rem;
 }
 .item-awesome__title {
-  padding: 50px 0;
+  padding: 2.083em 0;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
 }
 .item-awesome__text {
-  max-width: 370px;
-  margin: 8px auto 0 auto;
+  max-width: 23.125rem;
+  margin: 0.5rem auto 0 auto;
   text-align: center;
 }
