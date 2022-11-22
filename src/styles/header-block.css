@@ -1,14 +1,14 @@
 .section-header__title {
   text-align: center;
-  padding: 48px 0;
+  padding: 3rem 0;
 }
 .section-header__line {
-  width: 170px;
+  width: 10.625rem;
   height: 1px;
   background-color: var(--main-orange);
   margin: 0 auto;
 }
 .section-header__subtitle {
   text-align: center;
-  margin: 40px auto auto auto;
+  margin: 2.5rem auto auto auto;
 }

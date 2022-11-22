@@ -1,19 +1,23 @@
 .reviews {
-  padding: 50px 0 64px 0;
+  padding: 3.125rem 0 4rem 0;
 }
 .reviews-content {
   display: flex;
   justify-content: space-between;
-  padding-top: 83px;
+  padding-top: 5.187rem;
+  flex-wrap: wrap;
 }
 .reviews-content__column {
   max-width: 31.6%;
-  min-height: 336px;
+  min-height: 21rem;
+  min-width: 12.5rem;
+}
+.reviews-content__column-block-text {
   position: relative;
 }
 .reviews-content__column-text {
-  min-height: 180px;
-  padding: 0 20px;
+  min-height: 11.25rem;
+  padding: 0 1.25rem;
   background-color: #e2e2e2;
   border-radius: 10px;
   display: flex;
@@ -28,22 +32,22 @@
   border-right: 15px solid transparent;
   border-top: 20px solid #e2e2e2;
   position: absolute;
-  left: 70px;
+  left: 4.375rem;
 }
 .reviews-content__column-customer {
   display: flex;
-  padding-top: 66px;
+  padding-top: 4.125rem;
   align-items: flex-start;
 }
 .reviews-content__column-customer-name {
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 .reviews-content__column-customer-name h4 {
   display: flex;
   align-items: center;
-  min-height: 54px;
+  min-height: 3.375rem;
 }
 .reviews-content__column-customer-name p {
-  min-height: 21px;
-  margin-top: 15px;
+  min-height: 1.312rem;
+  margin-top: 0.937rem;
 }

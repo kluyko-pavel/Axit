@@ -7,7 +7,12 @@
 @import "header-block.css";
 @import "container.css";
 @import "main-header.css";
+@import "preview.css";
+@import "social-media.css";
 @import "tabs.css";
 @import "awesome.css";
 @import "pricing.css";
 @import "reviews.css";
+@import "design.css";
+@import "contact.css";
+@import "main-footer.css";

@@ -3,31 +3,65 @@ html {
 }
 h2 {
   font-family: "Raleway";
-  font-size: 36px;
+  font-size: 2rem;
 }
 h3 {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2rem;
 }
 h4 {
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 h5 {
   font-family: "Raleway";
   margin: 0;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.31rem;
   color: #86878b;
 }
 p {
   font-family: "Raleway";
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+input::placeholder {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.187rem;
+  color: #bdbdbd;
 }
 button {
   cursor: pointer;
+}
+.button-download--transparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid var(--main-white);
+  color: var(--main-white);
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.562rem;
+  min-height: 3.625rem;
+}
+.adress__links {
+  width: 47.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.adress__links-link:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
