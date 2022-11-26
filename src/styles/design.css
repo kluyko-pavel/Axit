@@ -25,9 +25,13 @@
 .design__button-download--transparent {
   flex-basis: 23.125rem;
 }
+@media (max-width: 1024px) {
+  .design {
+    background-attachment: local;
+  }
+}
 @media (max-width: 480px) {
   .design {
     padding: 0 0 3.125rem 0;
-    background-attachment: local;
   }
 }

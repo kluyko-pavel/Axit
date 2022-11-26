@@ -95,6 +95,9 @@
   cursor: pointer;
 }
 @media (max-width: 1024px) {
+  .preview {
+    background-attachment: local;
+  }
   .preview__content {
     flex-basis: 28.37rem;
   }
@@ -106,9 +109,6 @@
   }
 }
 @media (max-width: 480px) {
-  .preview {
-    background-attachment: local;
-  }
   .preview-flex-container {
     flex-wrap: wrap;
   }
