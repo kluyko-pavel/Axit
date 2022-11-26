@@ -28,5 +28,6 @@
 @media (max-width: 480px) {
   .design {
     padding: 0 0 3.125rem 0;
+    background-attachment: local;
   }
 }
