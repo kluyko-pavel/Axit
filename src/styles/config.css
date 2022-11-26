@@ -3,8 +3,9 @@ html {
 }
 h2 {
   font-family: "Raleway";
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
+
 h3 {
   font-family: "Raleway";
   font-weight: 700;
@@ -28,6 +29,7 @@ p {
   font-style: normal;
   font-size: 1.125rem;
 }
+
 input {
   border: none;
   outline: none;
@@ -64,4 +66,28 @@ button {
 .adress__links-link:hover {
   transform: scale(1.1);
   transition: 0.5s;
+}
+@media (max-width: 1024px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.125rem;
+  }
+  h5 {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 480px) {
+  .adress__links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 }

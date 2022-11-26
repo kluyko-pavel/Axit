@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Axit</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./src/styles/main.css" />
     <link rel="shortcut icon" href="/src/assets/favicon.svg" type="image/svg" />
   </head>
@@ -28,6 +33,9 @@
               <a href="#pricing" class="main-navigation__link">Pricing</a>
               <a href="#reviews" class="main-navigation__link">Reviews</a>
               <a href="#contact" class="main-navigation__link">Contact</a>
+            </nav>
+            <nav class="menu-burger">
+              <span class="menu-burger__line"></span>
             </nav>
           </div>
         </div>
@@ -199,11 +207,12 @@
                 </p>
                 <button class="tabs-content__button">Download</button>
               </div>
-              <img
-                class="tabs__image"
-                src="./src/assets/images/statue_liberty.png"
-                alt="statue_liberty"
-              />
+              <div class="tabs__image">
+                <img
+                  src="./src/assets/images/statue_liberty.png"
+                  alt="statue_liberty"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -391,6 +400,71 @@
                 </div>
               </div>
             </section>
+            <section class="reviews-content swiper">
+              <div class="swiper-wrapper">
+                <div class="reviews-content__column swiper-slide">
+                  <div class="reviews-content__column-block-text">
+                    <h5 class="reviews-content__column-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Doloribus accusamus expedita repellat similique odio
+                      aspernatur ex, architecto eaque quo suscipit.
+                    </h5>
+                  </div>
+                  <div class="reviews-content__column-customer">
+                    <img
+                      class="reviews-content__column-customer-avatar"
+                      src="./src/assets/images/reviews-davis.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-content__column-customer-name">
+                      <h4>Davis Rhiel Madsen</h4>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-content__column swiper-slide">
+                  <div class="reviews-content__column-block-text">
+                    <h5 class="reviews-content__column-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Doloribus accusamus expedita repellat similique odio
+                      aspernatur ex, architecto eaque quo suscipit.
+                    </h5>
+                  </div>
+                  <div class="reviews-content__column-customer">
+                    <img
+                      class="reviews-content__column-avatar"
+                      src="./src/assets/images/reviews-jaydon.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-content__column-customer-name">
+                      <h4>Jaydon Rosser</h4>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="reviews-content__column swiper-slide">
+                  <div class="reviews-content__column-block-text">
+                    <h5 class="reviews-content__column-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Doloribus accusamus expedita repellat similique odio
+                      aspernatur ex, architecto eaque quo suscipit.
+                    </h5>
+                  </div>
+                  <div class="reviews-content__column-customer">
+                    <img
+                      class="reviews-content__column-avatar"
+                      src="./src/assets/images/reviews-cooper.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-content__column-customer-name">
+                      <h4>Cooper Dorwart</h4>
+                      <p>Manager</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </section>
           </div>
         </section>
 
@@ -532,5 +606,7 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

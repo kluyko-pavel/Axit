@@ -46,3 +46,17 @@
   color: var(--main-white);
   cursor: pointer;
 }
+@media (max-width: 480px) {
+  .contact {
+    padding: 0 0 3.125rem 0;
+  }
+  .contact__form-data {
+    padding: 4rem 0 3.125rem 0;
+    display: block;
+  }
+  .contact__form-data-message {
+    width: 100%;
+    margin-top: 3.125rem;
+    min-height: 11.56rem;
+  }
+}
