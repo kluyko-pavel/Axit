@@ -1,5 +1,4 @@
 .preview {
-  min-height: 59.44rem;
   background: linear-gradient(rgba(30, 29, 29, 0.8), rgba(0, 0, 0, 0.5)),
     url(../assets/images/preview-background.jpg);
   background-size: cover;
@@ -7,13 +6,15 @@
   background-position-y: bottom;
   background-attachment: fixed;
 }
+
 .preview-flex-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 13rem;
-  flex-wrap: wrap;
+  padding-bottom: 10rem;
 }
+
 .preview__content {
   flex-basis: 41.875rem;
   color: var(--main-white);
@@ -26,6 +27,7 @@
   font-size: 3rem;
   line-height: 1.17em;
 }
+
 .preview__content-line {
   background-color: var(--main-white);
   margin: 0;
@@ -56,6 +58,7 @@
   align-items: center;
   text-transform: uppercase;
 }
+
 .preview__registrationform-title-highlighted {
   color: var(--main-orange);
 }
@@ -90,4 +93,44 @@
   line-height: 1.33em;
   color: var(--main-white);
   cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .preview__content {
+    flex-basis: 28.37rem;
+  }
+  .preview__content-title {
+    font-size: 2.25rem;
+  }
+  .preview__registrationform {
+    flex-basis: 24.875rem;
+  }
+}
+@media (max-width: 480px) {
+  .preview-flex-container {
+    flex-wrap: wrap;
+  }
+  .preview-flex-container {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .preview__content-logo {
+    display: none;
+  }
+  .preview__content-title {
+    text-align: center;
+  }
+  .preview__content-line {
+    margin: 0 auto;
+  }
+  .preview__content-text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+  }
+  .preview__button-download--transparent {
+    width: 100%;
+  }
+  .preview__registrationform {
+    margin: 3.5rem auto 0 auto;
+  }
 }

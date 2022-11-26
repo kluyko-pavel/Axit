@@ -18,3 +18,29 @@
 .social-media__text-subtitle {
   padding: 1.125rem 0;
 }
+@media (max-width: 1024px) {
+  .social-media__text-subtitle {
+    padding: 0.812rem 0;
+  }
+}
+@media (max-width: 480px) {
+  .social-media {
+    padding: 1.937rem 0 2.5rem 0;
+  }
+  .social-media-flex-container {
+    flex-direction: column;
+  }
+  .social-media__text {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-media__text-title {
+    display: flex;
+    align-items: center;
+  }
+  .social-media__text-subtitle {
+    text-align: center;
+  }
+}
