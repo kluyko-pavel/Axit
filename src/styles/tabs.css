@@ -85,4 +85,7 @@
   .tabs-content__button {
     width: 100%;
   }
+  .tabs-item {
+    width: 33.333%;
+  }
 }
